@@ -26,13 +26,13 @@ ng generate component home --inline-template --skip-tests
 - crea interfaccia housingLocation
   ng generate interface housinglocation
   es.:
-  `export interface HousingLocation {`
-  `id: number;`
-  `name: string;`
-  `city: string;`
-  `state: string;`
-  `photo: string;`
-  `availableUnits: number;`
-  `wifi: boolean;`
-  `laundry: boolean;`
-`}`
+  `export interface HousingLocation {
+  id: number;
+  name: string;
+  city: string;
+  state: string;
+  photo: string;
+  availableUnits: number;
+  wifi: boolean;
+  laundry: boolean;
+}`
