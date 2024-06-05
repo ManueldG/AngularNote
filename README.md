@@ -35,4 +35,15 @@ ng generate component home --inline-template --skip-tests
   availableUnits: number;
   wifi: boolean;
   laundry: boolean;
-}`
+}` 
+
+componente input
+ @Input()
+ si importa da @angular/core
+ import { Component, Input } from '@angular/core';
+
+ export class HousingLocationComponent {
+  @Input() housingLocation!: HousingLocation;
+}
+
+il punto esclamativo serve per comunicare a typescript che il valore passato non deve essere nullo o indefinito si chiama non-null assertion operator
