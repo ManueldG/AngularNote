@@ -1,0 +1,2 @@
+# AngularNote
+appunti Angular
