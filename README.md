@@ -47,3 +47,7 @@ componente input
 }
 
 il punto esclamativo serve per comunicare a typescript che il valore passato non deve essere nullo o indefinito si chiama non-null assertion operator
+
+passagio dati da componente padre a componente figlio
+in componente genitore importare Input e inizializzare variabile es.: titleP = "dati" nel template inserire <app-child [title]="titleP"></app-child>
+in componente child importare Input inizializzare variabile title @Input title = "" e nel template posizionare {{title}} dove si vuol far visualizzare i dati
